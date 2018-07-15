@@ -1,0 +1,6 @@
+Options -Indexes
+
+AuthType Basic
+AuthName "Password Protected Page"
+AuthUserFile /.htpasswd
+Require valid-user
