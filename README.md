@@ -25,7 +25,7 @@ Then carry on.
 
 If you do not have GIT installed, then under any of the Debian releases (e.g. Raspbian), you can install it with:
 ```
-sudo apt-get install git-core
+sudo apt-get install git
 ```
 To obtain WiringPi using GIT:
 ```
