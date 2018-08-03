@@ -91,9 +91,9 @@ This will put all the files into a new directory called rpi-remote-pc-start. Go 
 cd rpi-remote-pc-start/
 ```
 
-Remove the README.md and LICENSE files:
+Remove the irrelevant files:
 ```
-sudo rm README.md LICENSE SETUP.md
+sudo rm README.md LICENSE SETUP.md SECURITY.md
 ```
 
 Move the "webscripts" directory to the root directory:
