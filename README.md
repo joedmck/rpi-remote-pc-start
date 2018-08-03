@@ -6,3 +6,5 @@ You control the relay using a button on a password protected web page that runs 
 [Here](https://software.jmckinnon.co.uk/pc-start/) is a dummy version of the site, that doesn't have password protection, nor does it turn your PC on, but it will give you an idea of what the site looks like.
 
 If you want to set this up for yourself, see the [setup instructions.](SETUP.md)
+
+Also if you do replicate this for yourself, that yours is properly secured, I have provided notes about this in [this .md file.](SECURITY.md)
