@@ -28,19 +28,19 @@ sudo apt-get install git-core
 To obtain WiringPi using GIT:
 ```
 cd
-git clone git://git.drogon.net/wiringPi
+sudo git clone git://git.drogon.net/wiringPi
 ```
 If you have already used the clone operation for the first time, then
 ```
 cd ~/wiringPi
-git pull origin
+sudo git pull origin
 ```
 Will fetch an updated version then you can re-run the build script below.
 
 To build/install there is a new simplified script:
 ```
 cd ~/wiringPi
-./build
+sudo ./build
 ```
 The new build script will compile and install it all for you – it does use the sudo command at one point, so you may wish to inspect the script before running it.
 
