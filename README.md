@@ -1,10 +1,14 @@
 # Remote PC Boot System
 
 This system allows you to, with a Raspberry Pi and a relay module, short out the power button pins on your motherboard remotely, hence turning it on.
+
 You control the relay using a button on a password protected web page that runs on your Raspberry Pi, which then runs a script on the pi which closes the relay for 0.5 seconds, and turning your computer on.
 
-[Here](https://software.jmckinnon.co.uk/pc-start/) is a dummy version of the site, that doesn't have password protection, nor does it turn your PC on, but it will give you an idea of what the site looks like.
+### Installation
+Copy `assets/` and `index.html` to your web server directory. Copy `pcon` to `/usr/local/bin` and `chmod +x` it. Protect the website with http basic authentication and set up SSL, as otherwise your credentials will be sent in plain text and be easily intercepted.
 
-If you want to set this up for yourself, see the [setup instructions.](SETUP.md)
-
-Also if you do replicate this for yourself, that yours is properly secured, I have provided notes about this in [this .md file.](SECURITY.md)
+### TODO
+- Installation script.
+- Security instructions.
+- Migrate to NodeJS to eliminate use of PHP.
+- Inbuilt authentication (instead of http basic).
