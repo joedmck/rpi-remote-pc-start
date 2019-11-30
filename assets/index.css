@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, .container {
+  height: 98%;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #eeeeee;
+  font-size: 72px;
+}
+
+/* Centers vertically and horizontally */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98%;
+  pointer-events: none;
+}
+
+/* Enables pointer events */
+.interactive {
+  pointer-events: all;
+}
+
+/* Particles */
+#particles-js {
+  background-color: #263238;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+/* Button Stuff*/
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.btn-gradient {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
